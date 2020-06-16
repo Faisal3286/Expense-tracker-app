@@ -9,6 +9,7 @@ import './App.css';
 
 function App() {
   return (
+    <div className='tc bg-light-blue'>
     <GlobalProvider>
      <Header/>
       <div className = 'container'>
@@ -18,6 +19,7 @@ function App() {
         <AddTransaction/>
       </div>
     </GlobalProvider>
+    </div>
   );
 }
 

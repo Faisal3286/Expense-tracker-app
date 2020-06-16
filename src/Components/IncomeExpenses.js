@@ -16,7 +16,7 @@ export const IncomeExpenses = () => {
       -1
     ).toFixed(2);
     return (
-        <div className="inc-exp-container">
+        <div className="inc-exp-container br3 pa3 grow  shadow-5">
         <div>
           <h4>Income</h4>
           <p id="money-plus" className="money plus">{income}</p>
