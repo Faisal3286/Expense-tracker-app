@@ -9,7 +9,7 @@ export const Balance = () => {
   const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
 
     return (
-        <div className='dib br1 pa3 grow  shadow-5'>
+        <div className='dib br1 pa2 grow  shadow-5'>
            <h4>Your Balance</h4>
            <h1 id="balance">${total}</h1>  
         </div>
