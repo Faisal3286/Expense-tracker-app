@@ -19,6 +19,9 @@ function App() {
         <AddTransaction/>
       </div>
     </GlobalProvider>
+        <footer> 
+          <div className="copyright">Copyright &copy; Faisal Nabeel</div>
+        </footer>
     </div>
   );
 }
